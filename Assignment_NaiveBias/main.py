@@ -23,8 +23,8 @@ pclasses=nb.test(test_data) #get predcitions for test set
 #check how many predcitions actually match original test labels
 test_acc=np.sum(pclasses==test_labels)/float(test_labels.shape[0])
 
-print ("Test Set Examples: ",test_labels.shape[0]) # Outputs : Test Set Examples:  1502
-print ("Test Set Accuracy: ",test_acc*100,"%") # Outputs : Test Set Accuracy:  93.8748335553 %
+print ("Test Set Examples: ",test_labels.shape[0])
+print ("Test Set Accuracy: ",test_acc*100,"%") 
 
 '''
 print(len(train_data))
